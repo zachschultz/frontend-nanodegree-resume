@@ -1,0 +1,41 @@
+
+a {
+    color: #4ae;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+::-moz-selection, ::selection {
+    background: #e67e39;
+    color: #fff;
+}
+
+.lightbox-image-link {
+    display: inline-block;
+    padding: 0px;
+    margin: 0 0.5rem 1rem 0.5rem;
+    background-color: #fff;
+    line-height: 0;
+    -webkit-transition: background-color 0.1s ease-out;
+    -moz-transition: background-color 0.1s ease-out;
+    -o-transition: background-color 0.1s ease-out;
+    transition: background-color 0.1s ease-out;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+}
+.lightbox-image-link:hover {
+    background-color: #4ae;
+}
+.lightbox-image {
+    width: 190px;
+    height: 110px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 1px;
+}
